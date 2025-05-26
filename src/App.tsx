@@ -3,7 +3,7 @@ import "./home.css";
 
 const Home = () => {
   const [text, setText] = useState("");
-  const fullText = "BIENVENIDO A DEV-SUITS";
+  const fullText = "HOLAAAAA DEV-SUITS";
   const [showSubtitle, setShowSubtitle] = useState(false);
 
   useEffect(() => {
@@ -28,7 +28,7 @@ const Home = () => {
       <h1 className="typing-text">{text}</h1>
       {showSubtitle && (
         <p className="subtitle fade-in">
-          Creando soluciones modernas y minimalistas
+          Muy aesthetic
         </p>
       )}
       {showSubtitle && (
